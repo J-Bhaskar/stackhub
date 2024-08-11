@@ -1,0 +1,54 @@
+.pending-table{
+    width:100%;
+    margin:20px;
+    border:none;
+}
+.pending-table table{
+    border-collapse:collapse;
+
+}
+.pending-table td{
+    border: 2px solid black;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Table Styles */
+.pending-table, table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.table-head {
+    background-color: #4CAF50;
+    color: white;
+    text-align: left;
+}
+
+.pending-table th, table th, .pending-table td, table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+.pending-table tr:nth-child(even), table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.pending-table tr:hover, table tr:hover {
+    background-color: #ddd;
+}
+
+/* Heading Styles */
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+}
